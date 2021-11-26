@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+
+nav {
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.navbar div {
+    display: inline-block;
+    width: 700px;
+    background-color: blue;
+    height: 300px;
+}
+ 
+nav img {
+    height: 100px;
+    display: inline;
+    
+}
+
+.navbar {
+    display: inline-flex;
+    height: 200px;
+    margin: 0 auto;
+}
+
+nav span {
+    float: right;
+    margin: 30px 0 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav span a {
+    padding: 20px;
+    text-decoration: none;
+    color: #800000c9;
+}
+
+nav span a:hover {
+    border-bottom: 3px solid #800000;
+    color: #570000;
+    text-decoration: none;
+}
+
+.navbar input,.navbar button,.navbar span {
+    margin-top: 53px;
+}
+
+.navbar input {
+    height: 30px;
+    border: 2px solid #800000;
+    border-right: none;
+}
+
+.navbar input {
+    width: 85.2%;
+   
+}
+
+.navbar button {
+    float: right;
+    width: 13.9%;
+    border: none;
+    background-color: #800000;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    height: 37px;
+}
+
+.footer-container {
+    position: relative;
+    /* min-height: 500px; */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #800000;
+    color: white;
+}
+
+footer a, footer span {
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-links {
+    padding-left: 50px;
+}
+
+footer img {
+    height: 100px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.bg-color {
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.carousel-img {
+    height: 500px;
+    width: auto;
+}
+
+#hello, #hello2, #hello3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+#get-resources, #get-resources2, #get-resources3 {
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+#get-resources2 a, #get-resources3 a {
+    text-decoration: underline;
+    color: white;
+}
+.heading {
+    background-color: #801a00;
+    width: 100%;
+    position: static;
+}
+
+.divider {
+    height: 200px;
+}
+
+.container-carousel {
+    height: 750px;
+}
+
+.description {
+    margin: 0 auto;
+    margin-bottom: 400px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+.description p {
+    text-align:left;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 24px; 
+}
+
+.description div h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.description div h3 {
+    text-align: center;
+    font-weight: 300;
+    color: #800000;
+}
+
+.description div p button {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#register-btn {
+    background-color: #b30202;
+    color: white;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#register-btn:hover {
+    background-color: #800000;
+    text-decoration: none;
+}
+
+#signup-btn {
+    padding: 8px 10px;
+    background-color: none;
+    border: 2px solid #b30202;
+    background-color: white;
+    color: #b30202;
+    border-radius: 5px;
+}
+
+#signup-btn:hover {
+    background-color: #80000015;
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+    nav {
+        width: 100%;
+    }
+
+    .carousel-item {
+        width: 100%;
+    }
+
+    .bg-color {
+        width: 100%;
+    }
+
+    .carousel-img {
+        height: 300px;
+    }
+
+    .heading h5 {
+        font-size: 14px;
+
+    }
+
+    #hello, #hello2, #hello3 {
+        font-size: 26px;
+    }
+
+    #get-resources, #get-resources2, #get-resources3 {
+        font-size: 18px;
+    }
+
+    .container-carousel {
+        height: 500px;
+    }
+
+    .description p {
+        width: 100%;
+        
+    }
+
+    .description {
+        padding: 0;
+        padding-bottom: 70px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    nav {
+        width: 100%;
+    }
+
+    .carousel-item {
+        width: 100%;
+    }
+
+    .bg-color {
+        width: 100%;
+    }
+
+    .carousel-img {
+        height: 400px;
+    }
+
+    .heading h5 {
+        font-size: 14px;
+
+    }
+
+    #hello, #hello2, #hello3 {
+        font-size: 26px;
+    }
+
+    #get-resources, #get-resources2, #get-resources3 {
+        font-size: 18px;
+    }
+
+    .container-carousel {
+        height: 600px;
+    }
+
+    .description p {
+        width: 100%;
+        
+    }
+
+    .description {
+        padding-bottom: 70px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+}

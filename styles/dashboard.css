@@ -1,0 +1,151 @@
+/* 
+Author: Joana Teye
+*/
+*{
+    margin:0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width:30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+
+.btn-primary{
+    background-color: #cc0000;
+    padding: 5%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn-primary:hover{
+    background-color: #990000;
+}
+
+.btn-secondary{
+    /* background-color: #cc0000; */
+    padding: 10px 15px;
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3%;
+    border: 2px solid #cc0000;
+    background-color: #f1f2f6 ;
+    font-size: 16px;
+}
+
+.btn-secondary:hover{
+    background-color: #990000;
+}
+
+.btn-tertiary{
+    background-color: #1e90ff;
+    padding: 5%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3%;
+}
+
+.btn-tertiary:hover{
+    background-color: #3742fa;
+}
+
+option:hover {
+    background-color: white;
+    color: #cc0000;
+}
+
+.up-btns{
+    float: right;
+    width: 200px;
+}
+
+.nav-bar{
+    padding: 2px 30px 0 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn-logout{
+    float: right;
+    text-decoration: none;
+    background-color: #cc0000;
+    padding: 10px 15px;
+    margin: 2%;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn-logout:hover{
+    background-color: #990000;
+    text-decoration: none;
+    color: white;
+}
+
+/* CSS for main content */
+.main-content{
+    background-color:#f1f2f6;
+    padding: 3% 0;
+    margin-bottom: 3px;
+}
+
+.col-4{
+    width:15%;
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+
+/*CSS for footer
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 245px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #57606f;
+    color: white;
+}
+*/
+
+.footer-link{
+    text-decoration: none;
+    color: #57606f;
+}
