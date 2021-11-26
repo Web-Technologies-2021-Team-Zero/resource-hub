@@ -1,7 +1,7 @@
 # Resource Study Hub  
 NB: This is the repository used to bring everything together by the team. 
 The main repository they were working on is at this link:
-Link to main repository: https://github.com/Web-Technologies-2021-Team-Zero/team-project
+* Link to main repository: https://github.com/Web-Technologies-2021-Team-Zero/team-project
 
 ### Project Details 
 The resource hub is a place for students around the world to share resources, outside textbooks and class slides. 
