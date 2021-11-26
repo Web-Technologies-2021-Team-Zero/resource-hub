@@ -8,7 +8,7 @@
         if ($myFilesInfo) {
             $row = $myFilesInfo->fetch_array(MYSQLI_NUM); 
             while($row) {
-                $id = $row[1];
+                $id = $row[0];
                 echo "<tr>"; 
                 echo "<td>"; 
                 echo $row[1]; 

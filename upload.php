@@ -5,7 +5,6 @@ require __DIR__ . "./connection.php";
 // $user = $_GET['user'];
 
 if (isset($_POST['submit'])) { 
-    echo $user;
     $file = $_FILES['file']['name'];
     $mycourse = $_POST['mycourse'];
     $filename = $_POST['filename'];
@@ -33,7 +32,7 @@ if (isset($_POST['submit'])) {
         if (move_uploaded_file($file, $destination)) {
             
             $sql = "INSERT INTO `files` (`id`, `filename`, `uploaded_by`, `course`, `temp_filename`, `location`) VALUES 
-            (NULL, '$filename', $user, '$mycourse', '$file', '$destination')";
+            (NULL, '$filename', 'default', '$mycourse', '$file', '$destination')";
             if (mysqli_query($conn, $sql)) {
                 echo '<script language="javascript">';
                 echo 'alert("File sucessfully uploaded")';

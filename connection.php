@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "@Myvisioninitiative2021";
+$password = "12345678";
 $database = "resource_hub";
 
 $conn = new mysqli($servername, $username, $password, $database);
