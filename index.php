@@ -37,7 +37,7 @@
                     <img class="d-block w-100 carousel-img" src="./images/image2.jpg" alt="First slide">
                     <div class="carousel-caption heading">
                         <h5 id="hello">Created by you, for you</h5>
-                        <p id="get-resources">...get all your resources on the go...</p>
+                        <p id="get-resources">get all your resources on the go...</p>
                     </div>
                   </div>
                   <div class="carousel-item">
